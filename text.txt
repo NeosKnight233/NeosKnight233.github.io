@@ -1,0 +1,14 @@
+I am Weihao Liu, currently a research intern at Microsoft, Beijing, mentored by Dr. Ming Gong. Previously, I was a research assistant at Institute of Automation, Chinese Academy of Sciences, advised by Prof. Kang Liu, where I started my journey in NLP.
+
+Different Tasks. (multimodal, multilingual)
+tableQA + 
+
+(Question Answering)
+
+My research interest lies in building helpful, trustworthy large language model systems, especially different question answering (QA) systems. My recent research mainly focuses on  following aspects.
+
+1. Long-context QA. I am working on long-context QA.
+2. Truthfulness. Reducing hallucinations in LLMs, making their response more truthful. Meanwhile, I am also highly interested in related alignment methods, such as RLHF and DPO.
+3. I also have some experiences working on multimodal QA tasks, such as visual-text QA, table-text QA.
+
+I am currently looking for Phd positions for Fall 2025.
