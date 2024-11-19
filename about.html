@@ -11,7 +11,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <link rel="stylesheet" type="text/css" href="stylesheet.css">
-    <link rel="icon" type="image/png" href="images/icon.jpg">
+    <link rel="icon" type="image/png" href="images/icon_32x32.ico">
 
     <script src="scripts/functions.js"></script>
     
@@ -81,6 +81,42 @@
             margin-bottom: 5px;
             display: block;
         }
+
+        #container {
+            /* font-size: 24px; */
+            font-weight: bold;
+            text-align: center;
+            color: #333;
+            padding: 20px;
+            border: 2px solid #55ccd7;
+            border-radius: 12px;
+            background: #ffffff;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            max-width: 600px;
+            word-wrap: break-word;
+            position: relative;
+            text-align: center;
+        }
+
+        #title {
+            position: absolute;
+            top: -20px;
+            left: 50%;
+            transform: translateX(-50%);
+            background: #579fec;
+            color: #fff;
+            padding: 5px 10px;
+            font-size: 14px;
+            font-weight: bold;
+            border-radius: 12px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        .gallery > img{
+            width: 100%;
+            margin-bottom: 5px;
+            display: block;
+        }
     </style>
 </head>
 
@@ -90,47 +126,42 @@
     <li><a href="index.html">HOME</a></li>
     <!-- <li><a href="publication.html">PUBLICATION</a></li> -->
     <!-- <li><a href="team.html">TEAM</a></li> -->
-    <li><a href="about.html" class="active">ABOUT</a></li>
+    <li><a href="about.html" class="active">MISC</a></li>
     <li><a href="#">BACK TO TOP</a></li>
 </ul>
 <br>
 
-<table width="840" border="0" align="center" cellspacing="0" cellpadding="20">
+<table width="1000" border="0" align="center" cellspacing="0" cellpadding="20">
 <tbody><tr><td>
 
 <!-- title -->
-<!-- 
+
 <p align="center">
-    <pageheading>Jen-Tse (Jay) Huang 黃任澤</pageheading><br>
-    My first name sounds like: <b>Yen-Zuh</b><br>
-    <b>Other Names</b>: Renze Huang 黄任泽<br>
-    <b>Email</b>: <font id="email" style="display:inline;">jthuang@cse.cuhk.edu.hk</font>
-</p> -->
+    <pageheading>Weihao Liu 刘伟浩</pageheading><br>
+    <b>Email</b>: <font id="email" style="display:inline;">liuweihao2022@outlook.com</font>
+</p>
 
 <!-- overview -->
 
-<!-- <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
+<table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
     <tbody>
         <tr>
-            <td width="100%" valign="center" align="justify">
-                <p>In my free time, I enjoy traveling, photography, playing the piano, and watching anime.</p>
+            <td width="60%" valign="center" align="justify">
+                <p> I enjoy traveling. I have been traveling to many places around the world, however, electronically. (￣ ￣|| )</p>
+                <p> I am a beginner fan of parallel viewing 3D! It is absolutely insane!</p>
+            </td>
+            <td width="40%" valign="center" align="justify">
+                <div id="container">
+                    <div id="title">Random Insights</div>
+                    <div id="sentence">Life is a long journey. 🌍🚶‍♂️</div>
+                </div>
             </td>
         </tr>
     </tbody>
-</table> -->
+</table>
 
 <!-- traveling -->
 
-<!-- <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
-    <tbody>
-        <tr>
-            <td>
-                <sectionheading>&nbsp;&nbsp;Traveling</sectionheading>
-                <p>I have been to<br>A&nbsp;🇦🇺🇦🇹&nbsp;&nbsp;&nbsp;&nbsp;B&nbsp;🇧🇪&nbsp;&nbsp;&nbsp;&nbsp;C&nbsp;🇨🇳🇨🇿&nbsp;&nbsp;&nbsp;&nbsp;F&nbsp;🇫🇷&nbsp;&nbsp;&nbsp;&nbsp;G&nbsp;🇩🇪&nbsp;&nbsp;&nbsp;&nbsp;H&nbsp;🇭🇰🇭🇺&nbsp;&nbsp;&nbsp;&nbsp;I&nbsp;🇮🇹&nbsp;&nbsp;&nbsp;&nbsp;J&nbsp;🇯🇵&nbsp;&nbsp;&nbsp;&nbsp;L&nbsp;🇱🇺<br>M&nbsp;🇲🇾🇲🇴&nbsp;&nbsp;&nbsp;&nbsp;N&nbsp;🇳🇿&nbsp;&nbsp;&nbsp;&nbsp;P&nbsp;🇵🇹&nbsp;&nbsp;&nbsp;&nbsp;S&nbsp;🇸🇬🇸🇰🇪🇸🇨🇭&nbsp;&nbsp;&nbsp;&nbsp;T&nbsp;🇹🇼🇹🇭&nbsp;&nbsp;&nbsp;&nbsp;U&nbsp;🇬🇧🇺🇸&nbsp;&nbsp;&nbsp;V&nbsp;🇻🇦.</p>
-            </td>
-        </tr>
-    </tbody>
-</table> -->
 
 <!-- photography -->
 
@@ -138,11 +169,23 @@
     <tbody>
         <tr>
             <td>
-                <sectionheading>&nbsp;&nbsp;Photography </sectionheading>
+                <sectionheading>&nbsp;&nbsp;<a href="https://en.wikipedia.org/wiki/Stereoscopy">Stereoscopic 3D Photography </a></sectionheading>
             </td>
         </tr>
     </tbody>
 </table>
+
+<div class="gallery">
+    <img src="images/photos/1.jpg"> <br>
+    <img src="images/photos/2.jpg"> <br>
+    <img src="images/photos/3.jpg"> <br>
+    <img src="images/photos/4.jpg"> <br>
+    <img src="images/photos/5.jpg"> <br>
+    <img src="images/photos/6.jpg"> <br>
+    <img src="images/photos/7.jpg"> <br>
+    <img src="images/photos/8.jpg"> <br>
+    <img src="images/photos/9.jpg"> <br>
+</div>
 
 <!-- 
 <div class="masonry">
@@ -154,4 +197,25 @@
 
 
 </td></tr></table></body>
+
+<script>
+    const sentences = [
+        "Stay healthy, stay positive. 🌱😊",
+        "Think twice, act once. 🤔⚡",
+        "All that glitters is not gold. ✨💰",
+        "Always be open-minded. 🧠🌍",
+        "A good paper is a good story. 📄📖",
+        "Lose with grace, gain with peace. 🙏⚖️",
+        "Keep seeking something different. 🔍🌟"
+    ];
+
+    function showRandomSentence() {
+        const randomIndex = Math.floor(Math.random() * sentences.length);
+        document.getElementById('sentence').textContent = sentences[randomIndex];
+    }
+
+    // Set an interval to update the sentence every 3 seconds
+    setInterval(showRandomSentence, 2000);
+</script>
+
 </html>
