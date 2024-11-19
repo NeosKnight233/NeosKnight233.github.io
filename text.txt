@@ -5,10 +5,20 @@ tableQA +
 
 (Question Answering)
 
-My research interest lies in building helpful, trustworthy large language model systems, especially different question answering (QA) systems. My recent research mainly focuses on  following aspects.
+My research interest lies in building helpful, trustworthy and interpretable large language model systems, especially different question-answering (QA) systems. My recent research mainly focuses on the following aspects.
 
-1. Long-context QA. I am working on long-context QA.
-2. Truthfulness. Reducing hallucinations in LLMs, making their response more truthful. Meanwhile, I am also highly interested in related alignment methods, such as RLHF and DPO.
-3. I also have some experiences working on multimodal QA tasks, such as visual-text QA, table-text QA.
+1. Long-context QA: I am working on improving the long-context modeling abilitiy of LLMs and exploring the effectiveness of attention mechanism on multi-document QA, especially about retrieval heads.
+2. Truthfulness: Reducing hallucinations in LLMs and making their responses more truthful. Related methods include Chain-of-Thought (CoT), Retrieval-Augmented Generation (RAG), Reinforcement Learning from Human Feedback (RLHF), and Direct Preference Optimization (DPO), among others.
+3. I also have some experiences working on multimodal QA and multilingual QA tasks.
+
+Some subjects interest me, but I haven't had enough time to explore them thoroughly:
+
+1. Implicit Chain-of-Thought. 我认为单步生成一个token的自回归方式不是生成语言的最佳方式。人类，很多情况下也是先思考再表达
+2. Evaluating and enhancing creativity of LLMs. Different from creativity in art or visual area, I want to explore methods that can evaluate and enhance real creativity of LLMs on solving realistic challenges, such as product design or 视觉无关的创造力相关的任务.
+
+1. I believe the autoregressive approach of generating one token at a time is not the optimal way to produce language. Humans, in many cases, think before expressing themselves. Similarly, I am interested in exploring methods that allow large language models to engage in implicit reasoning or planning before generating outputs, enabling them to produce more coherent and contextually relevant responses.
+
+2. Evaluating and Enhancing Creativity in LLMs
+I aim to evaluate and enhance the creativity of large language models, focusing on tasks beyond artistic or visual domains. My interest lies in real-world applications of creativity, such as solving practical challenges, product design, or tackling tasks that require vision-independent forms of creative problem-solving. I seek to explore methods that accurately assess such creativity and improve the model's ability to generate innovative and effective solutions.
 
 I am currently looking for Phd positions for Fall 2025.
