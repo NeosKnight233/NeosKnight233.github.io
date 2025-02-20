@@ -159,3 +159,8 @@ pageheading {
 span.highlight {
   background-color: #ffffd0;
 }
+
+.highlight{
+  color: red;
+  font: bold;
+}
